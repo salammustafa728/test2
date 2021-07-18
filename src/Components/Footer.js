@@ -4,7 +4,7 @@ export class Footer extends Component {
     render() {
         return (
             <div>
-                <footer style={{background:"black", color:"white",height:"60px",textAlign:'center',marginTop:"10px"}} className="blockquote-footer">
+                <footer style={{background:"#1C1427", color:"white",height:"60px",textAlign:'center',marginTop:"10px"}} className="blockquote-footer">
                     Authoured  <cite title="Source Title">Salam Mustafa</cite>
                 </footer>
             </div>

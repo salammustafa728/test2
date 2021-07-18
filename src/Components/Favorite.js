@@ -68,7 +68,7 @@ export class Favorite extends Component {
                     <p>{this.state.err}</p>)
                     :
                     (
-                        <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                        <div style={{ display: 'flex', flexWrap: 'wrap' ,margin:'40px 40px'}}>
 
                             {
                                 this.state.favData.map((item, i) => {

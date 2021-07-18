@@ -7,7 +7,7 @@ export class Header extends Component {
     render() {
         return (
             <div>
-                <Nav defaultActiveKey="/" as="ul" style={{display:"flex",background:"#FFDADA"}}>
+                <Nav defaultActiveKey="/" as="ul" style={{display:"flex",background:"#CCFFBD"}}>
                     <Nav.Item as="li">
                         <Nav.Link href="/">Home</Nav.Link>
                     </Nav.Item>
