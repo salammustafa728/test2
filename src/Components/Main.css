@@ -1,0 +1,49 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+body
+{
+  
+    font-family: Roboto, Arial;
+}
+.hero
+{
+    height: 40em;
+    background: url(https://image.winudf.com/v2/image/Y29tLkp1aWNlTGl2ZVdhbGxwYXBlckFwcF9zY3JlZW5fNV8xNTI3Nzc1NTgwXzA5Mw/screen-5.jpg?fakeurl=1&type=.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+
+}
+.tint
+{
+    content: '';
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    background: rgba(0, 77, 100, .6);
+}
+.claim
+{
+  color:#dbdbdb;
+  font-size:2.5em;
+  padding: 22% 7em 0 2em;
+  position: relative;
+ 
+}
+.colors
+{
+  position: absolute;
+  left:5em;
+  top:10%;
+  z-index: 1;
+  list-style-type: none;
+}
+.colors li
+{
+  float: left;
+  margin: 0 10px 0 0;
+  width:30px;
+  height:30px;
+}
+.c1 { background-color: rgb(0, 77, 100);}
+.c2 { background-color: rgb(165, 143, 118);}
+.c3 { background-color: rgb(235, 91, 57);}

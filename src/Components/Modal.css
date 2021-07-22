@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+.modal-body {
+    position: relative;
+    padding: 15px;
+    background: rgb(198, 180, 206);
+    font-family: 'STIX Two Math', serif;
+}
+
+.modal-header {
+    border-bottom: 1px solid #1a1e12;
+    background: rgb(198, 180, 206);
+    font-family: 'STIX Two Math', serif;
+}

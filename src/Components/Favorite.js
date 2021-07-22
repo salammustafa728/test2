@@ -3,7 +3,7 @@ import axios from 'axios';
 import FormUpdate from './FormUpdate';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-
+import "./Favorite.css"
 
 export class Favorite extends Component {
     constructor(props) {
@@ -64,6 +64,12 @@ export class Favorite extends Component {
     render() {
         return (
             <div>
+               
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                 <div><h1>My Favorite Drinks</h1></div>
                 {this.state.err ? (
                     <p>{this.state.err}</p>)
                     :
