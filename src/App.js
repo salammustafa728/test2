@@ -13,14 +13,14 @@ export class App extends Component {
       <>
     <BrowserRouter>
     <Header/>
-    <switch>
-      <Route exact path='/'>
-      <Main/>
-      </Route>
-      <Route exact path='/Favorite'>
-      <Favorite/>
-      </Route>
-    </switch>
+    <Switch>
+      <Route exact path='/' component={Main}/>
+      {/* <Main/>
+      </Route> */}
+      <Route exact path='/favorite' component={Favorite}/>
+      {/* <Favorite />
+      </Route> */}
+    </Switch>
     </BrowserRouter>
     <Footer/>
     </> 
